@@ -25,5 +25,6 @@ Rails.application.routes.draw do
 
   get '/greatest_user' => 'users#greatest_user'
 
+  root to: 'users#home'
 
 end
